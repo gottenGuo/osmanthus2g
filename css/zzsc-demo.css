@@ -44,7 +44,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 .bgcolor-5 { background: #df6659; color: #521e18; }/*pink1*/
 .bgcolor-6 { background: #2fa8ec; }/*sky blue*/
 .bgcolor-7 { background: #d0d6d6; }/*White tea*/
-.bgcolor-8 { background: rgb(50,13,13); color: #fff; margin-top:55px; }/*Dark grey2*/
+.bgcolor-8 { background: rgba(50,13,13,0.8); color: #fff; margin-top:55px; }/*Dark grey2*/
 .bgcolor-9 { background: #ef3f52; color: #fff;}/*pink2*/
 .bgcolor-10{ background: #64448f; color: #fff;}/*Violet*/
 .bgcolor-11{ background: #3755ad; color: #fff;}/*dark blue*/
