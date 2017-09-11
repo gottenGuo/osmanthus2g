@@ -4,25 +4,22 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>by J J</title>
+	<title>by G G</title>
 	<link rel='stylesheet' type="text/css" href='css/css.css'>
 	<link rel="stylesheet" type="text/css" href="css/zzsc-demo.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 </head>
 <html >
     <body>
-		<div style="text-align:center" >
+		<div class="content">
 			<br/>	
  			<div>   
- 				<iframe id="myframe" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=32648345&auto=1&height=66" allowtransparency="true" style="background-color:transparent" ></iframe> 
-				
-				<div id="alayer1"></div>
-				
+ 				<iframe id="myframe" frameborder="no" border="0" marginwidth="0" marginheight="0" width=350 height=86 src="http://music.163.com/outchain/player?type=2&id=32648345&auto=1&height=66" ></iframe> 
  			</div>			 
- 			<div style="width: 370px;margin: auto;" > 
+ 			<div class="text"> 
  				<h1> This is my world </h1> 
 				<h1> No effort is another's </h1> 
- 				<h4>by J J<h4> 
+ 				<h4>by Y Y<h4> 
  			</div>		 
 		</div>
 		<div class="zzsc-container"> 
@@ -33,24 +30,11 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js" ></script>
 		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-		<script type="text/javascript" src="js/APlayer.min.js"></script>
 		<script type="text/javascript">
 			$(function(){
 				$('#clock').countdown('2017/12/31', function(event) {
 				  $(this).html(event.strftime('%D 天 %H:%M:%S'));
 				});
-				
-				var ap = new APlayer({
-					element: document.getElementById('player1'),
-					music: {
-						title: 'Preparation',
-						author: 'Hans Zimmer/Richard Harvey',
-						url: 'http://sc1.111ttt.com/2017/4/05/10/298101104389.mp3',
-					}
-				});
-				
-
-				
 			})
 		</script>
     </body>

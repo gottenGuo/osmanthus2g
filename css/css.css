@@ -10,3 +10,10 @@
 	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
 	font-size: 2em;
 }
+.text{
+	width: 370px;
+	margin: auto; 
+}
+.content{
+	text-align:center;
+}
