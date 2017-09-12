@@ -11,9 +11,16 @@
 	font-size: 2em;
 }
 .text{
-	width: 370px;
-	margin: auto; 
+	width: 360px;
+	margin: 0 auto; 
+	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
+	font-size: 1.0em;
 }
 .content{
 	text-align:center;
 }
+.bgcolor-8 P{
+	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
+	font-size: 1.0em;
+}
+	
