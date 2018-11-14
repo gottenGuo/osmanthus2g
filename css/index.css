@@ -1,61 +1,110 @@
-
-body{
-	margin:0;
-	background: rgb(192,33,53);
-	color: rgba(50,13,13,0.7);
+body {
+	margin: 0;
+	background: rgb(192, 33, 53);
+	color: rgba(50, 13, 13, 0.7);
 	font-weight: 500;
 	font-size: 1.05em;
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande",
+		Helvetica, Arial, sans-serif, FreeSans, Arimo;
 }
 
 @font-face {
-  font-family: 'Days One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Days One'), local('DaysOne-Regular'), url(http://fonts.gstatic.com/s/daysone/v6/levHiAHcPaqxEf5sqeyx1_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	font-family: 'Days One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Days One'), local('DaysOne-Regular'),
+		url(http://fonts.gstatic.com/s/daysone/v6/levHiAHcPaqxEf5sqeyx1_esZW2xOQ-xsNqO47m55DA.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-#clock{
-	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
+#clock {
+	font-family: 'Days One', "Microsoft YaHei", Arial, sans-serif;
 	font-size: 2em;
 }
 
-.text{
+.text {
 	width: 360px;
-	margin: 0 auto; 
-	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
+	margin: 0 auto;
+	font-family: 'Days One', "Microsoft YaHei", Arial, sans-serif;
 	font-size: 1.0em;
 }
 
-.content{
-	text-align:center;
+.content {
+	text-align: center;
 }
 
-.bgcolor-8 P{
-	font-family: 'Days One',"Microsoft YaHei", Arial,sans-serif;
+.bgcolor-8 P {
+	font-family: 'Days One', "Microsoft YaHei", Arial, sans-serif;
 	font-size: 1.0em;
 }
-	
-.zzsc-content{
+
+.zzsc-content {
 	text-align: center;
 	padding: 40px 30px;
 }
 
-.zzsc-container{
+.zzsc-container {
 	margin: 0 auto;
 }
-	
-.bgcolor-1 { background: #f0efee; }
-.bgcolor-2 { background: #f9f9f9; }
-.bgcolor-3 { background: #e8e8e8; } 
-.bgcolor-4 { background: #2f3238; color: #fff; }
-.bgcolor-5 { background: #df6659; color: #521e18; }
-.bgcolor-6 { background: #2fa8ec; }
-.bgcolor-7 { background: #d0d6d6; }
-.bgcolor-8 { background: rgba(50,13,13,0.7); color: #fff;}
-.bgcolor-9 { background: #ef3f52; color: #fff;}
-.bgcolor-10{ background: #64448f; color: #fff;}
-.bgcolor-11{ background: #3755ad; color: #fff;}
-.bgcolor-12{ background: #3498DB; color: #fff;}
-.bgcolor-20{ background: #494A5F;color: #D5D6E2;}
+
+.bgcolor-1 {
+	background: #f0efee;
+}
+
+.bgcolor-2 {
+	background: #f9f9f9;
+}
+
+.bgcolor-3 {
+	background: #e8e8e8;
+}
+
+.bgcolor-4 {
+	background: #2f3238;
+	color: #fff;
+}
+
+.bgcolor-5 {
+	background: #df6659;
+	color: #521e18;
+}
+
+.bgcolor-6 {
+	background: #2fa8ec;
+}
+
+.bgcolor-7 {
+	background: #d0d6d6;
+}
+
+.bgcolor-8 {
+	background: rgba(50, 13, 13, 0.7);
+	color: #fff;
+}
+
+.bgcolor-9 {
+	background: #ef3f52;
+	color: #fff;
+}
+
+.bgcolor-10 {
+	background: #64448f;
+	color: #fff;
+}
+
+.bgcolor-11 {
+	background: #3755ad;
+	color: #fff;
+}
+
+.bgcolor-12 {
+	background: #3498DB;
+	color: #fff;
+}
+
+.bgcolor-20 {
+	background: #494A5F;
+	color: #D5D6E2;
+}
